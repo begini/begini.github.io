@@ -19,7 +19,23 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      {% assign m = post.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Januari
+        {% when '2' %}Februari
+        {% when '3' %}Maret
+        {% when '4' %}April
+        {% when '5' %}Mei
+        {% when '6' %}Juni
+        {% when '7' %}Juli
+        {% when '8' %}Agustus
+        {% when '9' %}September
+        {% when '10' %}Oktober
+        {% when '11' %}November
+        {% when '12' %}Desember
+      {% endcase %}
+      Ditulis tanggal {{ post.date | date: "%-d %B %Y" }}
     </p>
 
     <div class="post-entry-container">
