@@ -58,9 +58,9 @@ title-img: "/img/avatar-icon.png"
 author:
   name: Som Pret
   email: "sompret@yandex.com"
-  facebook: yourname  # eg. daattali
+#  facebook: yourname  # eg. daattali
   github: begini    # eg. daattali
-  twitter: yourname   # eg. daattali
+#  twitter: yourname   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourname  # eg. daattali
