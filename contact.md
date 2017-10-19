@@ -3,6 +3,8 @@ layout: page
 title: Kontak
 subtitle: kirim pesan ke pengelola
 bigimg: "/img/big/contact.jpg"
+use-site-title: true
+css: '/css/form.css'
 ---
 
 Silakan lengkapi form di bawah untuk mengirim pesan ke pengelola situs ini
