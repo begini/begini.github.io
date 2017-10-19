@@ -115,7 +115,7 @@ disqus: "begini"
 google_analytics: "UA-108333531-1"
 
 # Google Tag Manager ID
-gtm: "GTM-NWW9GZ2"
+# gtm: "GTM-NWW9GZ2"
 
 # Facebook App ID
 # fb_app_id: ""
@@ -158,7 +158,7 @@ defaults:
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: false
+link-tags: true
 
 # Exclude these files from production site
 exclude:
