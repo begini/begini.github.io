@@ -4,6 +4,7 @@ title: Kontak
 subtitle: kirim pesan ke pengelola
 bigimg: "/img/big/contact.jpg"
 css: '/css/form.css'
+comments: false
 ---
 
 Silakan lengkapi form di bawah untuk mengirim pesan ke pengelola situs ini
