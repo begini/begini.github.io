@@ -16,6 +16,7 @@ Silakan lengkapi form di bawah untuk mengirim pesan ke pengelola situs ini
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_subject" value="[begini] Form Kontak" />
   <input type="hidden" name="_format" value="plain" />
+  <input type="hidden" name="_language" value="id" />
   <textarea name="message" placeholder="Isi Pesan"></textarea>
   <button type="submit">Kirim</button>
 </form>
